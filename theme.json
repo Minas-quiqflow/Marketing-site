@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Hero Blue",
+          "slug": "hero-blue",
+          "color": "#3b82f6"
+        },
+        {
+          "name": "Hero Dark",
+          "slug": "hero-dark",
+          "color": "#111827"
+        },
+        {
+          "name": "Hero black",
+          "slug": "hero-dark",
+          "color": "#000000"
+        }
+      ],
+      "gradients": [
+        {
+          "name": "Hero Gradient",
+          "slug": "hero-gradient",
+          "gradient": "linear-gradient(to right, #111827, #1f2937)"
+        }
+      ]
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true,
+      "units": ["rem", "px", "%"],
+      "blockGap": "1.5rem",
+      "spacingSizes": [
+        {
+          "slug": "xl",
+          "size": "6rem",
+          "name": "Extra Large"
+        },
+        {
+          "slug": "sm",
+          "size": "1rem",
+          "name": "Small"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+                {
+          "slug": "hero-paragraph",
+          "size": "1.2rem",
+          "name": "Hero Paragraph"
+        },
+        {
+          "slug": "hero-heading",
+          "size": "1rem",
+          "name": "Hero Heading"
+        }
+      ]
+    },
+    "border": {
+      "radius": [
+        {
+          "slug": "card",
+          "name": "Card Rounded",
+          "radius": "12px"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/group": {
+        "spacing": {
+          "margin": {
+            "top": "0"
+          }
+        }
+      }
+    }
+  }
+}
